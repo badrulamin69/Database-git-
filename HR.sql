@@ -7,7 +7,7 @@ FROM employees;
 
 SELECT last_Name , salary
 FROM employees
-where last_name like 's%'
+where last_name like '_s%'
 order by first_name, salary;
 
 SELECT last_name, job_id, depertment_id, hire_date
