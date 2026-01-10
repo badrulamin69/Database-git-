@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let email=prompt("Enter Email Address")
+        let pattern=/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,63})$/;
+        if(pattern.test(email)){
+            document.writeln("Email address is correct");
+        } else {
+            document.writeln("Email address is wrong");
+        }
+    </script>
+</body>
+</html>
