@@ -10,7 +10,7 @@ create table students(
 );
   commit;
   
-  
+
   
 desc students;
     
