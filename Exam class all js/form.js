@@ -6,8 +6,10 @@ function form(event){
     let email = document.getElementById("email").value;
     let location = document.getElementById("location").value;
 
-    let sex = document.querySelector("input[name='sex']: checked").value;
-    let course = document.querySelectorAll("input [name='course'] : checked");
+    // let sex = document.querySelector("input [name='sex']:checked").value;
+
+    let sex = document.querySelector("input[name='sex']:checked").value;
+    let course = document.querySelectorAll("input [name='course']:checked");
 
     let coureslist = [] ;
     for(let i=0; i<course.length; i++){
