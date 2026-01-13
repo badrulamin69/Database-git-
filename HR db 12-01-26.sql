@@ -65,11 +65,8 @@ select first_name
 from employees
 where first_name like '%S%'
 
-select salary
+select avg (salary)
 from employees
-where avg(salary)=
-    (select salary from employees)
-    where department_name like  
-    
+where job_id like 'SA%'
 
 

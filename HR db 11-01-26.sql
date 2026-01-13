@@ -32,3 +32,4 @@ creat table students(
     
     ADD CONSTRAINT hr_students_stu_id_pk PRIMARY KEY (stu_id)
 );
+
