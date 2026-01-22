@@ -5,6 +5,11 @@ function form(event){
     let remarks = document.getElementById("remarks").value;
     let location = document.getElementById("location").value;
 
+<<<<<<< HEAD
+=======
+    // let sex = document.querySelector("input [name='sex']:checked").value;
+
+>>>>>>> 1ee06e594402eb0f623a550cc9b99f849a6170d8
     let sex = document.querySelector("input[name='sex']:checked").value;
     let course = document.querySelectorAll("input [name='course']:checked");
 
