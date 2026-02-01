@@ -1,6 +1,8 @@
 select * from employees;
 select * from emp3344;
 
+
+
 create table emp3344(
     e_id number,
     e_name varchar(50),
