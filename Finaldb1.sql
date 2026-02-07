@@ -12,6 +12,7 @@ select * from emp1065881;
 --Question no. 2 add two colmns name 'department_id' , 'dept_name' ALTER Table command
 
 
+
 --Question no. 3 insert value in the table.
 select * from emp1065881;
 
